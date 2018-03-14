@@ -29,10 +29,10 @@ def download(url):
     if is_downloadable(url): #and has_expected_size(url):
         r = requests.get(url, allow_redirects=True)
         open(path_to_save+filename, 'wb').write(r.content)
-        print ("Start to download {}".format(filename), " which has the size {}".format(size))
+        print ("Finish to download {}".format(filename), " which has the size {}".format(size))
 
 
-scraping_df = pd.read_csv('/Users/kevenlemoing/Sites/sandvik_code_assignement/data/scraping_result.csv',error_bad_lines=False)
+scraping_df = pd.read_csv('/Users/kevenlemoing/Sites/sandvik_code_assignement/data/scraping_result_sliced.csv',error_bad_lines=False)
 
 for i in range(len(scraping_df['sub_link'])):
     filename = scraping_df['sub_link'][i]
