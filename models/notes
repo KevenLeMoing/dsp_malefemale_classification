@@ -1,0 +1,10 @@
+1st model:
+classification globale --> compare random forest and SVM
+
+train on mean frequency, standard deviation frequency, skewness and kurtosis
+
+2nd model
+The same, remove skewness and kurtosis and compare
+
+3rd model
+Take the most relevant features and test on a sample of users with same "Pronunciation dialect" and compare
