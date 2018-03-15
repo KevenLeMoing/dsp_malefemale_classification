@@ -1,6 +1,20 @@
 import requests
 import pandas as pd
 
+@TODO
+#"Mettre un timer sur le téléchargement
+#Checker que le fichier est bien téléchargé —> fonction
+#Fin du timer
+#Commencer à télécharger un autre fichier
+#Vérifier la taille du fichier (mettre une limite en fonction de la taille attendue la plus importante) —> récupérer cette valeur depuis le notebook
+#Séparer les fonctions de la boucle + dataframe
+#Storer les temps de téléchargement
+#en faire la moyenne / rapidité en fonction de la taille des fichiers
+
+#Éventuellement multi threader pour gagner en temps
+
+
+
 url_voxforge = "http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/"
 
 path_to_save = "/Users/kevenlemoing/Sites/sandvik_code_assignement/data/downloads/"
